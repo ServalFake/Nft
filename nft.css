@@ -1,0 +1,131 @@
+body{
+    background-color: #1B2638;
+}
+
+#section-1{
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D1A2C;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    z-index: 1;
+}
+#equil{
+    position: fixed;
+    color: white;
+    margin-top: 250px;
+    align-items: center;
+   margin-right: 220px;
+    
+    font-size: 30px;
+
+}
+#img-1{
+    position: fixed;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+#img-2{
+    z-index: 1;
+    position: fixed;
+    margin-top: 650px;
+    margin-right: 400px;
+    border: white solid;
+    border-radius: 50%;
+    z-index: 10;
+}
+#section-2{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+#calm{
+    position: relative;
+    font-size: 20px;
+    color: grey;
+    display: text;
+    top: 150px;
+    right: 10px;
+    text-align: left; 
+    white-space: nowrap;
+    z-index: 1;
+}
+#name{
+    position: fixed;
+    z-index: 1;
+    color: grey;
+    margin-top: 660px;
+    right: 220px;
+    white-space: nowrap;
+}
+#name-1{
+    color: white;
+    z-index: 1;
+}
+hr{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 450px;
+    margin-top: 550px;
+    opacity: 20%;
+    color: grey;
+    background-color: grey;
+    border-bottom: 1px solid grey;
+}
+#icon{
+    position: fixed;
+    z-index: 1;
+    left: 30px;
+    margin-top: 220px;
+    
+}
+#icon-2{ 
+    position: relative;
+    z-index: 1;
+    top: 220px;
+    left: 260px;
+    align-items: center;
+    right: ;
+}
+.icons{
+    z-index: 1;
+    position: relative;
+    left: 100px;
+}
+#eth{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    position: relative;
+    top: 220px;
+    right: 290px;
+    white-space: nowrap;
+}
+#days{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    white-space: nowrap;
+    color: grey;
+    position: relative;
+    top: 218px;
+    right: px;
+}
